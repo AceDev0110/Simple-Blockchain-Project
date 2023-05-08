@@ -1,0 +1,55 @@
+.container {
+  padding: 0 2rem;
+}
+
+.floatContainer {
+  border: 3px solid #fff;
+  padding: 20px;
+}
+
+.floatChild {
+  width: 50%;
+  float: left;
+  padding: 20px;
+} 
+
+.button {
+  margin-top: 60px;
+  margin-left: 650px;
+  box-sizing: 50px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  background-color: rgb(255, 183, 0);
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.table_title {
+  margin-top: 70px;
+  font-size: 20px;
+  color: black;
+}
+
+.table_orders {
+  border: 1px solid black;
+  margin: 0px 0px;
+  padding: 5px 5px;
+}
+
+.table_titles {
+  margin-top: 75px;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
